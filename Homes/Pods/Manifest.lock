@@ -1,0 +1,67 @@
+PODS:
+  - Agrume (4.0.3)
+  - Alamofire (4.6.0)
+  - GoogleSignIn (4.1.2):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.13):
+    - GTMSessionFetcher/Full (= 1.1.13)
+  - GTMSessionFetcher/Core (1.1.13)
+  - GTMSessionFetcher/Full (1.1.13):
+    - GTMSessionFetcher/Core (= 1.1.13)
+  - ImagePicker (3.0.0)
+  - SVProgressHUD (2.2.3)
+  - SwiftyJSON (4.0.0)
+  - SwiftyPickerPopover (6.1.0)
+  - SwiftyUserDefaults (3.0.1)
+  - TagListView (1.3.0)
+
+DEPENDENCIES:
+  - Agrume (from `https://github.com/JanGorman/Agrume.git`)
+  - Alamofire
+  - GoogleSignIn
+  - ImagePicker
+  - SVProgressHUD
+  - SwiftyJSON
+  - SwiftyPickerPopover
+  - SwiftyUserDefaults
+  - TagListView
+
+EXTERNAL SOURCES:
+  Agrume:
+    :git: https://github.com/JanGorman/Agrume.git
+
+CHECKOUT OPTIONS:
+  Agrume:
+    :commit: 621cb4beb3620c99b74db6235c561e021f7d4dfa
+    :git: https://github.com/JanGorman/Agrume.git
+
+SPEC CHECKSUMS:
+  Agrume: 584097b2fb2369b9be945ccc583e9b30ea8a3f26
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  GoogleSignIn: d9ef55b10f0aa401a5de2747f59b725e4b9732ac
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
+  GTMSessionFetcher: 5bb1eae636127de695590f50e7d248483eb891e6
+  ImagePicker: 973953c25960fe04729a7082a56194321c6762d2
+  SVProgressHUD: a5eaeff664a82dda89809c409ace40183ce91523
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  SwiftyPickerPopover: f1bb928efd60e4c754aa957c1bb67372465e9ccb
+  SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
+  TagListView: 669f7d4455003c877655875d34829731c4191528
+
+PODFILE CHECKSUM: dfa75aa87a7c3bff4aa1a51f4e632e5b637a2e30
+
+COCOAPODS: 1.4.0
